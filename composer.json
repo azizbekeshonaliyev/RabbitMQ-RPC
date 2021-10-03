@@ -1,0 +1,15 @@
+{
+    "name": "1996a/rabbit-mq",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "azizbekeshonaliyev",
+            "email": "1996azizbekeshonaliyev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php-amqplib/php-amqplib": "^3.0@dev"
+    }
+}
