@@ -1,3 +1,3 @@
 # RabbitMQ-RPC
 
-# PHP exapmle rabbit connection
+# PHP example rabbit connection
