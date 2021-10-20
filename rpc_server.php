@@ -5,7 +5,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
 
-$connection = new AMQPStreamConnection('185.183.243.189', 5672, 'admin', 'pay123#@!');
+$connection = new AMQPStreamConnection('127.0.0.1', 5672, 'guest', '');
 $channel = $connection->channel();
 
 $channel->queue_declare('test_rpc_queue', false, false, false, false);
