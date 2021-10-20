@@ -27,10 +27,10 @@ class FibonacciRpcClient
     public function __construct()
     {
         $this->connection = new AMQPStreamConnection(
-            '185.183.243.189',
+            '127.0.0.1',
             5672,
-            'admin',
-            'pay123#@!'
+            'guest',
+            ''
         );
         $this->channel = $this->connection->channel();
         list($this->callback_queue, ,) = $this->channel->queue_declare(
